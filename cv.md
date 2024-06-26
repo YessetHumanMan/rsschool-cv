@@ -4,7 +4,7 @@ ___
 ___
 * **Location** Kazahstan, Astana
 * **Phone** +7(747) 675-07-46
-* **Email** eset.bimanov@gmail.com
+* **Email and Telegram** eset.bimanov@gmail.com @yesset_97
 * **GitHub** YessetHumanMan
 
 ### About Me
@@ -18,4 +18,34 @@ ___
 * JS/Vue
 * GitHub
 * Figma/Pixso
+
+### Code Example
+___
+export class Layout {
+
+  constructor({router , children}) {
+    this.children = children
+    this.router = router
+  }
+render() {
+  const headerHTML = `<header>
+  Header
+  <nav>
+  <a href="/">Home</a>
+  <a href="/auth">Auth</a>
+  </nav>
+  </header>`
+
+  return `
+  ${headerHTML}
+  <main>
+  ${this.children}
+  </main>`
+}
+
+}
+}
+### Education
+___
+Kazatu / Faculty of Agronomy and Agriculture
 
