@@ -17,4 +17,5 @@ ___
 * CSS/SCSS/Tailwind
 * JS/Vue
 * GitHub
+* Figma/Pixso
 
