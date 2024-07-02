@@ -41,7 +41,6 @@ render() {
   <main>
   ${this.children}
   </main>`
-}
 
 }
 }
