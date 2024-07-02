@@ -35,13 +35,11 @@ render() {
   <a href="/auth">Auth</a>
   </nav>
   </header>`
-
   return `
   ${headerHTML}
   <main>
   ${this.children}
   </main>`
-
 }
 }
 ### Education
