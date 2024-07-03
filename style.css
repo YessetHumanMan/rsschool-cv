@@ -308,3 +308,13 @@ body {
   opacity: 0.7;
 }
 
+.about-me__text p:not(:last-child) {
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+
+.about-me__text {
+  text-align: left;
+}
+
