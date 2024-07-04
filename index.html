@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <nav class="menu">
+          <a class="logo" href="#body">
+            <img src="images/logo-rs.jpg" alt="logo" style="width: 70px; height: 70px; border-radius: 50% ">
+          </a>
+          <button type="button" class="burger">
+            <span></span>
+            <span class="sr-only">Open menu</span>
+          </button>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link animation-link" href="#about-me">
+                About Me
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link animation-link" href="#skills">
+                Skills
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link animation-link" href="#contacts">
+                Contacts
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="header__inner">
+        <h1 class="header__title">
+          <span class="header__name">
+            Hello I'm Yesset Bimanov
+          </span>
+          Frontend Developer
+        </h1>
+      </div>
+    </div>
+      <a class="header__arrow animation-link" href="#about-me">
+        show more
+      </a>
+  </header>
+  <main>
+    <section class="about-me section" id="about-me">
+      <div class="container">
+        <h2 class="title">
+          About Me
+        </h2>
+        <div class="about-me__text">
+          <p>
+            Welcome everyone to my website! My name is Yesset, I'm from Astana. I've been doing front-end development for over a year. Before
+            development, I was doing something I didn’t like, I went to a job I didn’t like, I couldn’t figure out what to do to get things done
+            brought pleasure and money, until I came across an interesting development school.
+          </p>
+          <p>
+            Since then I have gone through difficult times. Studying was given in different ways: in some places it was easier, in others it was more difficult.
+            The daily work on my skills and the diligence with which I approached learning, after just a few months
+            bore fruit - I began to understand programming and write code better.
+          </p>
+          <p>
+            Dear reader, if you are reading this, know that behind every difficult time comes relief, the most important thing is not to give up!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="container">
+        <h2 class="title skills__title">
+          Skills
+        </h2>
+        <div class="skills__inner">
+          <img class="skills__img" src="images/my_photo.jpg" style="width: 350px; height: 350px; border-radius: 50%; box-shadow: 12px 12px 25px rgba(71, 13, 86, 0.5)" alt="my photo">
+          <ul class="skills__info">
+            <li class="skills__items">
+              <span class="skills__text">
+                html
+              </span>
+              <div class="skills__unfill">
+                <span class="sr-only">Skill level 85%</span>
+                <div class="skills__fill" style="width: 85%;">
+                </div>
+              </div>
+            </li>
+            <li class="skills__items">
+              <span class="skills__text">
+                css
+              </span>
+              <div class="skills__unfill">
+                <span class="sr-only">Skill level 80%</span>
+                <div class="skills__fill" style="width: 80%;">
+                </div>
+              </div>
+            </li>
+            <li class=" skills__items">
+              <span class="skills__text">
+                js
+              </span>
+              <div class="skills__unfill">
+                <span class="sr-only">Skill level 61%</span>
+                <div class="skills__fill" style="width: 61%;">
+                </div>
+              </div>
+            </li>
+            <li class=" skills__items">
+              <span class="skills__text">
+                Git
+              </span>
+              <div class="skills__unfill">
+                <span class="sr-only">Skill level 75%</span>
+                <div class="skills__fill" style="width: 75%;">
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer" id="contacts">
+    <div class="container">
+      <h2 class="title footer__title">
+        Contacts
+      </h2>
+      <div class="footer__items">
+        <address class="contacts">
+          <p class="contacts__text">
+            You can contact me using the contact form, or directly by phone number, email,
+            social networks:
+          </p>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <a class="contacts__link animation__link" href="tel:+7 (747) 675 07 46">
+                +7 (747) 675 07 46
+              </a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link animation__link" href="mailto:eset.bimanov@gmail.com" target="_blank">
+                eset.bimanov@gmail.com
+              </a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link animation__link" href="https://github.com/YessetHumanMan" target="_blank">
+                Visit my GitHub
+              </a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link animation__link" href="https://rs.school/courses/javascript-ru" target="_blank">
+                Link to course
+              </a>
+            </li>
+          </ul>
+          <ul class="social">
+            <li class="social__item">
+              <a class="social__link" href="https://www.instagram.com/yesset_web_guru" target="_blank" rel="nofollow noopener"
+                style="background-image: url(images/social/instagram.svg);width: 32px;height: 32px;">
+                <span class="sr-only">Our instagram</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#" target="_blank" rel="nofollow noopener"
+                style="background-image: url(images/social/facebook.svg);width: 32px;height: 32px;">
+                <span class="sr-only">Our facebook</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="https://t.me/yesset_97" target="_blank" rel="nofollow noopener"
+                style="background-image: url(images/social/telegram.svg);width: 32px;height: 32px;">
+                <span class="sr-only">Our telegram</span>
+              </a>
+            </li>
+          </ul>
+        </address>
+        <form class="form">
+          <div class="form__info">
+            <label class="form__label">
+              Your name
+              <input class="form__input" type="text" name="name-info" required placeholder="Name">
+            </label>
+            <label class="form__label">
+              Your phone
+              <input class="form__input" type="tel" name="tel-info " required placeholder="+7 (999) 999-99-99">
+            </label>
+          </div>
+          <label class="form__label-textarea">
+            Your message
+            <textarea class="form__input form__input--textarea" name="user-message" required
+              placeholder="Text of your message"></textarea>
+          </label>
+          <button class="btn-default" type="submit">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="footer__logo">
+      <a class="logo" id="body">
+        <img src="images/logo_rs.svg" style="width: 40px; height: 40px"  alt="logo_rs">
+      </a>
+      <p class="footer__copyright">&copy; 2024</p>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
