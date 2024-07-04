@@ -137,7 +137,7 @@ body {
 
 .btn-default {
   color: #fff;
-  background-color: #2352DE;
+  background-color: #8349e8;
   font-size: 18px;
   font-weight: 600;
   line-height: 1.3;
@@ -452,7 +452,7 @@ body {
 }
 
 .contacts__item {
-  color: #2352DE;
+  color: #8349e8;
   width: fit-content;
   font-size: 16px;
   font-weight: 400;
@@ -466,7 +466,7 @@ body {
 }
 
 .contacts__link:focus {
-  box-shadow: 0 0 0 2px rgba(35, 82, 222, 0.50);
+  box-shadow: 0 0 0 2px ;
   border-radius: 3px;
 }
 
