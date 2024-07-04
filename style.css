@@ -239,6 +239,23 @@ body {
   transform: rotate(45deg) translate(0, 50%);
 }
 
+.header__top {
+  padding-top: 75px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  transition: padding 0.3s;
+}
+
+.fixed {
+  background-color: rgb(131, 73, 232);
+  padding: 10px 0;
+}
+
+
 .header__inner {
   max-width: 770px;
   display: flex;
