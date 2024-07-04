@@ -18,7 +18,7 @@
           </a>
           <button type="button" class="burger">
             <span></span>
-            <span class="sr-only">Открыть меню</span>
+            <span class="sr-only">Open menu</span>
           </button>
           <ul class="menu__list">
             <li class="menu__item">
@@ -71,7 +71,7 @@
       </a>
   </header>
   <main>
-    <section class="about-me section">
+    <section class="about-me section" id="about-me">
       <div class="container">
         <h2 class="title">
           About Me
@@ -150,43 +150,48 @@
   <footer class="footer" id="contacts">
     <div class="container">
       <h2 class="title footer__title">
-        Контакты
+        Contacts
       </h2>
       <div class="footer__items">
         <address class="contacts">
           <p class="contacts__text">
-            Связаться со мной можно, воспользовавшись контактной формой, или напрямую по номеру телефона, email, в
-            соцсетях:
+            You can contact me using the contact form, or directly by phone number, email,
+            social networks:
           </p>
           <ul class="contacts__list">
             <li class="contacts__item">
-              <a class="contacts__link animation__link" href="tel:+380501111111">
-                +38 (050) 111 11 11
+              <a class="contacts__link animation__link" href="tel:+7 (747) 675 07 46">
+                +7 (747) 675 07 46
               </a>
             </li>
             <li class="contacts__item">
-              <a class="contacts__link animation__link" href="mailto:frontend-monster@email.com">
-                frontend-monster@email.com
+              <a class="contacts__link animation__link" href="mailto:eset.bimanov@gmail.com" target="_blank">
+                eset.bimanov@gmail.com
+              </a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link animation__link" href="https://github.com/YessetHumanMan" target="_blank">
+                Visit my GitHub
               </a>
             </li>
           </ul>
           <ul class="social">
             <li class="social__item">
-              <a class="social__link" href="#" target="_blank" rel="nofollow noopener"
-                style="background-image: url(images/social/instagram.svg);">
-                <span class="sr-only">наш инстаграм</span>
+              <a class="social__link" href="https://www.instagram.com/yesset_web_guru" target="_blank" rel="nofollow noopener"
+                style="background-image: url(images/social/instagram.svg);width: 32px;height: 32px;">
+                <span class="sr-only">Our instagram</span>
               </a>
             </li>
             <li class="social__item">
               <a class="social__link" href="#" target="_blank" rel="nofollow noopener"
-                style="background-image: url(images/social/facebook.svg);">
-                <span class="sr-only">наш фэйзбук</span>
+                style="background-image: url(images/social/facebook.svg);width: 32px;height: 32px;">
+                <span class="sr-only">Our facebook</span>
               </a>
             </li>
             <li class="social__item">
-              <a class="social__link" href="#" target="_blank" rel="nofollow noopener"
-                style="background-image: url(images/social/telegram.svg);">
-                <span class="sr-only">наш телеграм</span>
+              <a class="social__link" href="https://t.me/yesset_97" target="_blank" rel="nofollow noopener"
+                style="background-image: url(images/social/telegram.svg);width: 32px;height: 32px;">
+                <span class="sr-only">Our telegram</span>
               </a>
             </li>
           </ul>
@@ -194,21 +199,21 @@
         <form class="form">
           <div class="form__info">
             <label class="form__label">
-              Ваше имя
-              <input class="form__input" type="text" name="name-info" required placeholder="Иван">
+              Your name
+              <input class="form__input" type="text" name="name-info" required placeholder="Name">
             </label>
             <label class="form__label">
-              Номер телефона
-              <input class="form__input" type="tel" name="tel-info " required placeholder="+380501111111">
+              Your phone
+              <input class="form__input" type="tel" name="tel-info " required placeholder="+7 (999) 999-99-99">
             </label>
           </div>
           <label class="form__label-textarea">
-            Ваше сообщение
+            Your message
             <textarea class="form__input form__input--textarea" name="user-message" required
-              placeholder="Текст вашего сообщения"></textarea>
+              placeholder="Text of your message"></textarea>
           </label>
           <button class="btn-default" type="submit">
-            Отправить
+            Submit
           </button>
         </form>
       </div>
