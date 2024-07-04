@@ -147,5 +147,77 @@
       </div>
     </section>
   </main>
+  <footer class="footer" id="contacts">
+    <div class="container">
+      <h2 class="title footer__title">
+        Контакты
+      </h2>
+      <div class="footer__items">
+        <address class="contacts">
+          <p class="contacts__text">
+            Связаться со мной можно, воспользовавшись контактной формой, или напрямую по номеру телефона, email, в
+            соцсетях:
+          </p>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <a class="contacts__link animation__link" href="tel:+380501111111">
+                +38 (050) 111 11 11
+              </a>
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__link animation__link" href="mailto:frontend-monster@email.com">
+                frontend-monster@email.com
+              </a>
+            </li>
+          </ul>
+          <ul class="social">
+            <li class="social__item">
+              <a class="social__link" href="#" target="_blank" rel="nofollow noopener"
+                style="background-image: url(images/social/instagram.svg);">
+                <span class="sr-only">наш инстаграм</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#" target="_blank" rel="nofollow noopener"
+                style="background-image: url(images/social/facebook.svg);">
+                <span class="sr-only">наш фэйзбук</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#" target="_blank" rel="nofollow noopener"
+                style="background-image: url(images/social/telegram.svg);">
+                <span class="sr-only">наш телеграм</span>
+              </a>
+            </li>
+          </ul>
+        </address>
+        <form class="form">
+          <div class="form__info">
+            <label class="form__label">
+              Ваше имя
+              <input class="form__input" type="text" name="name-info" required placeholder="Иван">
+            </label>
+            <label class="form__label">
+              Номер телефона
+              <input class="form__input" type="tel" name="tel-info " required placeholder="+380501111111">
+            </label>
+          </div>
+          <label class="form__label-textarea">
+            Ваше сообщение
+            <textarea class="form__input form__input--textarea" name="user-message" required
+              placeholder="Текст вашего сообщения"></textarea>
+          </label>
+          <button class="btn-default" type="submit">
+            Отправить
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="footer__logo">
+      <a class="logo" href="#body">
+        <img src="images/logo.svg" alt="Логотип">
+      </a>
+    </div>
+  </footer>
 </body>
 </html>
