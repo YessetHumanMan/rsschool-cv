@@ -593,7 +593,7 @@ body {
   padding-left: 10px;
 }
 
-<<<<<<< HEAD
+
 /* ADAPTIVE */
 
 @media (max-width:1200px) {
@@ -921,9 +921,37 @@ body {
   }
 }
 
+.logo-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
 
+.skills__img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  box-shadow: 12px 12px 25px rgba(71, 13, 86, 0.5);
+}
 
-=======
->>>>>>> ba62b94 (fix: update)
+.skills__fill {
+  height: 10px;
+}
+
+.skills__html {
+  width: 85%;
+}
+
+.skills__css {
+  width: 80%;
+}
+
+.skills__js {
+  width: 61%;
+}
+
+.skills__git {
+  width: 75%;
+}
 
 
