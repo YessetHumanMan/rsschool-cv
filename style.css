@@ -593,5 +593,29 @@ body {
   padding-left: 10px;
 }
 
+/* ADAPTIVE */
+
+@media (max-width:1200px) {
+
+  .section {
+    padding: 120px 0;
+  }
+
+  .title {
+    margin-bottom: 50px;
+  }
+
+  .header__name {
+    font-size: 38px;
+  }
+
+  .header__title {
+    font-size: 80px;
+  }
+
+  .footer {
+    padding-top: 120px;
+  }
+}
 
 
