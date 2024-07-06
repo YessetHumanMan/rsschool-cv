@@ -703,7 +703,7 @@ body {
     inset: 0;
     padding: 75px 0;
     overflow-y: auto;
-    background-color: #7792E0;
+    background-color: #8349E8;
     display: block;
     text-align: center;
     transform: translateY(-200%);
@@ -881,7 +881,7 @@ body {
   .skills__items:not(:last-child) {
     margin-bottom: 15px;
   }
-  
+
   .footer {
     padding-top: 50px;
   }
