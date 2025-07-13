@@ -21,6 +21,7 @@ ___
 
 ### Code Example
 ___
+```
 export class Layout {
 
   constructor({router , children}) {
@@ -42,6 +43,7 @@ render() {
   </main>`
 }
 }
+```
 ### Education
 ___
 Kazatu / Faculty of Agronomy and Agriculture
