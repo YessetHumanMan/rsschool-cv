@@ -1,4 +1,4 @@
-/* Общие стили для шрифтов */
+/* Основные стили для шрифтов */
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
@@ -57,6 +57,13 @@ h1, h2 {
   border-radius: 5px;
 }
 
+.skills__img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  box-shadow: 12px 12px 25px rgba(71, 13, 86, 0.5);
+}
+
 /* Стили для футера */
 footer {
   background-color: #f8f8f8;
@@ -93,3 +100,4 @@ footer a:hover {
     margin-bottom: 10px;
   }
 }
+
