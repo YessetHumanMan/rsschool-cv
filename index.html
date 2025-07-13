@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Yesset Bimanov, Frontend Developer">
+  <meta name="keywords" content="Yesset Bimanov, Frontend Developer, Portfolio">
   <title>Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header class="header">
     <div class="header__top">
@@ -17,8 +21,7 @@
             <img src="images/logo-rs.jpg" alt="logo" class="logo-img">
           </a>
           <button type="button" class="burger">
-            <span></span>
-            <span class="sr-only">Open menu</span>
+            Open menu
           </button>
           <ul class="menu__list">
             <li class="menu__item">
@@ -51,10 +54,11 @@
         </h1>
       </div>
     </div>
-      <a class="header__arrow animation-link" href="#about-me">
-        show more
-      </a>
+    <a class="header__arrow animation-link" href="#about-me">
+      show more
+    </a>
   </header>
+
   <main>
     <section class="about-me section" id="about-me">
       <div class="container">
@@ -89,42 +93,38 @@
           <ul class="skills__info">
             <li class="skills__items">
               <span class="skills__text">
-                html
+                HTML
               </span>
               <div class="skills__unfill">
                 <span class="sr-only">Skill level 85%</span>
-                <div class="skills__fill" style="width: 85%;">
-                </div>
+                <div class="skills__fill skills__html"></div>
               </div>
             </li>
             <li class="skills__items">
               <span class="skills__text">
-                css
+                CSS
               </span>
               <div class="skills__unfill">
                 <span class="sr-only">Skill level 80%</span>
-                <div class="skills__fill" style="width: 80%;">
-                </div>
+                <div class="skills__fill skills__css"></div>
               </div>
             </li>
-            <li class=" skills__items">
+            <li class="skills__items">
               <span class="skills__text">
-                js
+                JS
               </span>
               <div class="skills__unfill">
                 <span class="sr-only">Skill level 61%</span>
-                <div class="skills__fill" style="width: 61%;">
-                </div>
+                <div class="skills__fill skills__js"></div>
               </div>
             </li>
-            <li class=" skills__items">
+            <li class="skills__items">
               <span class="skills__text">
                 Git
               </span>
               <div class="skills__unfill">
                 <span class="sr-only">Skill level 75%</span>
-                <div class="skills__fill" style="width: 75%;">
-                </div>
+                <div class="skills__fill skills__git"></div>
               </div>
             </li>
           </ul>
@@ -132,6 +132,7 @@
       </div>
     </section>
   </main>
+
   <footer class="footer" id="contacts">
     <div class="container">
       <h2 class="title footer__title">
@@ -146,7 +147,7 @@
           <ul class="contacts__list">
             <li class="contacts__item">
               <a class="contacts__link animation__link" href="tel:+77476750746">
-                +7 (747) 675 07 46
+                +7&nbsp;(747)&nbsp;675&nbsp;07&nbsp;46
               </a>
             </li>
             <li class="contacts__item">
@@ -168,19 +169,19 @@
           <ul class="social">
             <li class="social__item">
               <a class="social__link" href="https://www.instagram.com/yesset_web_guru" target="_blank" rel="nofollow noopener"
-                style="background-image: url(images/social/instagram.svg);width: 32px;height: 32px;">
+                class="social__instagram">
                 <span class="sr-only">Our instagram</span>
               </a>
             </li>
             <li class="social__item">
               <a class="social__link" href="#" target="_blank" rel="nofollow noopener"
-                style="background-image: url(images/social/facebook.svg);width: 32px;height: 32px;">
+                class="social__facebook">
                 <span class="sr-only">Our facebook</span>
               </a>
             </li>
             <li class="social__item">
               <a class="social__link" href="https://t.me/yesset_97" target="_blank" rel="nofollow noopener"
-                style="background-image: url(images/social/telegram.svg);width: 32px;height: 32px;">
+                class="social__telegram">
                 <span class="sr-only">Our telegram</span>
               </a>
             </li>
@@ -190,17 +191,16 @@
           <div class="form__info">
             <label class="form__label">
               Your name
-              <input class="form__input" type="text" name="name-info" required placeholder="Name">
+              <input class="form__input" type="text" name="name-info" required placeholder="Name" aria-label="Your name">
             </label>
             <label class="form__label">
               Your phone
-              <input class="form__input" type="tel" name="tel-info " required placeholder="+7 (999) 999-99-99">
+              <input class="form__input" type="tel" name="tel-info" required placeholder="+7&nbsp;(999)&nbsp;999&nbsp;99&nbsp;99" aria-label="Your phone">
             </label>
           </div>
           <label class="form__label-textarea">
             Your message
-            <textarea class="form__input form__input--textarea" name="user-message" required
-              placeholder="Text of your message"></textarea>
+            <textarea class="form__input form__input--textarea" name="user-message" required placeholder="Text of your message" aria-label="Your message"></textarea>
           </label>
           <button class="btn-default" type="submit">
             Submit
@@ -210,13 +210,15 @@
     </div>
     <div class="footer__logo">
       <a class="logo" id="body">
-        <img src="images/logo_rs.svg" style="width: 40px; height: 40px"  alt="logo_rs">
-
+        <img src="images/logo_rs.svg" class="footer-logo-img" alt="logo_rs">
       </a>
       <p class="footer__copyright">&copy; 2024</p>
     </div>
   </footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="js/main.js"></script>
 </body>
+
 </html>
+
